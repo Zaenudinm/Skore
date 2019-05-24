@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Skor">
+
+    <Button
+        android:id="@+id/Btn_Plush_Satu_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Satu Poin"
+        android:onClick="satu_poin_A"
+        />
+    <Button
+        android:id="@+id/Btn_Plush_Dua_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Dua Poin"
+        android:onClick="dua_poin_A"
+        />
+
+    <Button
+        android:id="@+id/Btn_Plush_Tiga_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Tiga Poin"
+        android:onClick="tiga_poin_A"
+        />
+    <TextView
+        android:id="@+id/txt_Tim_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poin Tim A"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Btn_Plush_Dua_A"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/tv_tim_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:layout_below="@+id/txt_Tim_A"/>
+    <Button
+        android:id="@+id/Riset_Nilai_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Riset Nilai"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_tim_A"
+        android:onClick="riset_poin_A"/>
+
+    <Button
+        android:id="@+id/RIset_Nilai_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Riset Nilai"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Riset_Nilai_A"
+        android:layout_marginTop="20dp"
+        android:onClick="riset_poin_B"/>
+
+    <TextView
+        android:id="@+id/tv_tim_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:layout_below="@+id/RIset_Nilai_B"/>
+
+    <TextView
+        android:id="@+id/txt_Tim_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poin Tim B"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_tim_B"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/Btn_Plush_Satu_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Satu Poin"
+        android:layout_below="@id/txt_Tim_B"
+        android:layout_marginTop="30dp"
+        android:onClick="satu_poin_B"
+        />
+    <Button
+        android:id="@+id/Btn_Plush_Dua_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dua Poin"
+        android:layout_below="@+id/txt_Tim_B"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="dua_poin_B"
+        />
+    <Button
+        android:id="@+id/Btn_Plush_Tiga_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiga Poin"
+        android:layout_below="@+id/txt_Tim_B"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:onClick="tiga_poin_B"
+        />
+
+
+
+</RelativeLayout>
